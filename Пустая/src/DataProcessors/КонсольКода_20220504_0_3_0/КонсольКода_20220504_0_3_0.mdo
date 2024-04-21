@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b152145c-0966-406d-bc77-7a5a30205bf1">
+  <producedTypes>
+    <objectType typeId="527b5f1a-3573-4649-8132-80661e2f8920" valueTypeId="8845ffa9-56e1-442f-8857-6d1e4935f98e"/>
+    <managerType typeId="c3e3cd26-94ce-407f-82e0-5c9963c38b33" valueTypeId="9f2380f0-f1a7-4733-84a9-310c6196bacd"/>
+  </producedTypes>
+  <name>КонсольКода_20220504_0_3_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода 20220504 0.3.0</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольКода_20220504_0_3_0.Form.Форма</defaultForm>
+  <attributes uuid="d2ffdc7a-523e-43c3-9cae-6b758e866bb9">
+    <name>КаталогИсходногоКодаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог исходного кода конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22de88b9-1bf6-4869-a3fe-60322ff58acc">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f1255e5f-9702-482d-9e42-c38c46073ab8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9804a51f-4ade-430b-8fc8-e0178dff07f6">
+    <name>src</name>
+    <synonym>
+      <key>ru</key>
+      <value>Src</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ba4ea166-733b-4351-bc62-4eed4fa3fe11">
+    <name>ПользовательскиеСниппеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские сниппеты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="dc6a0ff9-b540-4da4-b76b-7d295a04fbe6">
+    <name>ПользовательскиеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="433eeba3-6a21-44e7-9ca2-d3d31406c670">
+    <name>МакетЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет запроса</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

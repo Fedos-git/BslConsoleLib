@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c5a399a-3faa-44a3-8148-9ab4ee23bf42">
+  <name>Подсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КонсольКода_20220504_0_3_0</content>
+  <content>DataProcessor.КонсольКода_20221410_0_3_3</content>
+  <content>DataProcessor.РедакторМонакоБиблиотека_20220504_0_3_0</content>
+  <content>DataProcessor.РедакторМонакоБиблиотека_20221014_0_3_3</content>
+  <content>DataProcessor.Библиотека_0_3_3</content>
+</mdclass:Subsystem>

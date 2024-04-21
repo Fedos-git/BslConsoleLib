@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66b88f75-f6dd-47b2-b615-b889ff16ebf8">
+  <producedTypes>
+    <objectType typeId="f8c6ac1f-20c3-45e6-84c8-4d6b330f16f6" valueTypeId="6841180b-7faf-4901-b0e0-971af1aa4a06"/>
+    <managerType typeId="dcc6f2b0-59b1-4e83-aaff-8e81ea5a6b10" valueTypeId="64c6c363-06f3-4a74-b9b9-e71011a2a909"/>
+  </producedTypes>
+  <name>Библиотека_0_3_3</name>
+  <synonym>
+    <key>en</key>
+    <value>BSL-console</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека 2022.10.14 0.3.3</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Библиотека_0_3_3.Form.ДемоПростаяКонсоль</defaultForm>
+  <attributes uuid="56c2e9f3-cc1d-46d8-93a1-9a5f3c4783b3">
+    <name>КаталогИсходногоКодаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог исходного кода конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57ab1d60-d4c7-4174-b5e2-92cd55b2bf95">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2fa83112-9f2f-4316-8cad-0ac146bf52d2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="887cb177-1b61-49e2-a44d-e3e64cb71cc8">
+    <name>Монако</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монако</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7284c66d-64d2-4635-a8f4-3b6320117456">
+    <name>РедакторКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c419c140-8a99-4ffd-9f65-41d5b5529516">
+    <name>ДемоПростаяКонсоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо простая консоль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="db3ab054-bd14-4ad0-aed0-f058a8802d80">
+    <name>bsl_console</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bsl console</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c7eae636-3f74-4b0c-b9fb-3e1653b6dba7">
+    <name>ПользовательскиеСниппеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские сниппеты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="897c8148-5798-464d-b4cd-4d1dc40e5bbb">
+    <name>ПользовательскиеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="71d29c71-e266-4df3-9b7f-7f1cfb0fc074">
+    <name>МакетЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет запроса</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

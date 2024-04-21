@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10baaa6b-1c80-40b5-ab70-64f8e187b584">
+  <producedTypes>
+    <objectType typeId="276d8614-a148-4272-8645-6cdfbba5cb3a" valueTypeId="3c000ebe-ecc6-4017-9035-051501978793"/>
+    <managerType typeId="006f7e2a-32a7-4234-a54e-0dbf40d329ca" valueTypeId="3996ca14-9744-49f6-8f1b-3b38a34eebd9"/>
+  </producedTypes>
+  <name>РедакторМонакоБиблиотека_20220504_0_3_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор монако библиотека 20220504 0.3.0</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РедакторМонакоБиблиотека_20220504_0_3_0.Form.Форма</defaultForm>
+  <attributes uuid="d1a11e21-6500-4094-b044-9d11859cbc3a">
+    <name>КаталогИсходногоКодаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог исходного кода конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2af9b5a9-0bf3-44ad-bb58-4836fda4d05d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f83fbaaf-2721-4a3f-ad00-39fa90cda192">
+    <name>bsl_console</name>
+    <synonym>
+      <key>ru</key>
+      <value>Bsl console</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="106ba6e6-4700-4cf8-89f9-3c79062252c2">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="efaecab3-64d5-41d9-b7c7-f0211588302d">
+    <name>src</name>
+    <synonym>
+      <key>ru</key>
+      <value>Src</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

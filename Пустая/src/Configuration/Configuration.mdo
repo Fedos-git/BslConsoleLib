@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a10dcdb1-6dd5-442e-a484-1bdd03d19bb6">
+  <name>Пустая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пустая</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0b6acb16-4a77-4ef0-87a3-0f2879f364c9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="65c20256-5cde-439b-be1d-6b8835bdad46"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="91654506-ff96-4bc1-b397-d39d4a7c2197"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b910897d-d036-424e-914c-c945d52fbad2"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="acb4d2f8-b805-48e0-8afa-cd0a70c87543"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d207add7-f694-4a06-9a78-58f2d57219f1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="147f66a6-37a1-48e5-9f6c-d5b9ecaeaa85"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="21310b87-a901-4e29-b6f9-498a24a4300c">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="8892d96e-be8b-4f7e-95cc-8015ec7296a1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Подсистема</subsystems>
+  <dataProcessors>DataProcessor.Библиотека_0_3_3</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольКода_20220504_0_3_0</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольКода_20221410_0_3_3</dataProcessors>
+  <dataProcessors>DataProcessor.РедакторМонакоБиблиотека_20220504_0_3_0</dataProcessors>
+  <dataProcessors>DataProcessor.РедакторМонакоБиблиотека_20221014_0_3_3</dataProcessors>
+</mdclass:Configuration>
