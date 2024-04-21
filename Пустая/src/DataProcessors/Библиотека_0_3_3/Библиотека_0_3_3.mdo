@@ -14,7 +14,7 @@
     <value>Библиотека 2022.10.14 0.3.3</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.Библиотека_0_3_3.Form.ДемоПростаяКонсоль</defaultForm>
+  <defaultForm>DataProcessor.Библиотека_0_3_3.Form.СовсемпростаяКонсоль</defaultForm>
   <attributes uuid="56c2e9f3-cc1d-46d8-93a1-9a5f3c4783b3">
     <name>КаталогИсходногоКодаКонфигурации</name>
     <synonym>
@@ -73,6 +73,15 @@
     <synonym>
       <key>ru</key>
       <value>Демо простая консоль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95ace572-cd0c-474d-83f8-ef2a0fa7ff3c">
+    <name>СовсемпростаяКонсоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совсемпростая консоль</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
