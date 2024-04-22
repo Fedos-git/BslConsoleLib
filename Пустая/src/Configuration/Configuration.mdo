@@ -47,6 +47,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Подсистема</subsystems>
+  <catalogs>Catalog.Справочник</catalogs>
   <dataProcessors>DataProcessor.Библиотека_0_3_3</dataProcessors>
   <dataProcessors>DataProcessor.КонсольКода_20220504_0_3_0</dataProcessors>
   <dataProcessors>DataProcessor.КонсольКода_20221410_0_3_3</dataProcessors>
