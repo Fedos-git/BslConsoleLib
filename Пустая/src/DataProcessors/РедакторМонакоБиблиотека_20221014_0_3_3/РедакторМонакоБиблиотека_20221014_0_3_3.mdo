@@ -59,4 +59,12 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
+  <templates uuid="5eddbc8d-f46d-4519-9d5d-b1e7580c9b01">
+    <name>Макет123</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет123</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:DataProcessor>
