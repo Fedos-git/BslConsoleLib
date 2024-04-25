@@ -313,7 +313,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.РедакторМонакоБиблиотека_20220504_0_3_0</types>
+      <types>DataProcessorObject.Библиотека_0_3_3</types>
     </valueType>
     <view>
       <common>true</common>
