@@ -14,7 +14,7 @@
     <value>Библиотека 2022.10.14 0.3.3</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.Библиотека_0_3_3.Form.СовсемпростаяКонсоль</defaultForm>
+  <defaultForm>DataProcessor.Библиотека_0_3_3.Form.ИсходникиБиблиотека</defaultForm>
   <attributes uuid="56c2e9f3-cc1d-46d8-93a1-9a5f3c4783b3">
     <name>КаталогИсходногоКодаКонфигурации</name>
     <synonym>
@@ -42,10 +42,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="2fa83112-9f2f-4316-8cad-0ac146bf52d2">
-    <name>Форма</name>
+    <name>Исходники</name>
     <synonym>
       <key>ru</key>
-      <value>Форма</value>
+      <value>Исходники</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -82,6 +82,24 @@
     <synonym>
       <key>ru</key>
       <value>Совсемпростая консоль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a76f8e43-4e0b-4ca8-ad4e-2c7ec095ff3e">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c17bbeb-2645-479d-ae9d-3272b611b679">
+    <name>ИсходникиБиблиотека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходники библиотека</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
